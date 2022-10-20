@@ -9,7 +9,7 @@ public class MyStepdefs {
     @Given("{int}")
     public void some(int arg0) {
         boolean i = false;
-        System.out.println(arg0);
+        System.out.println("some: " + arg0);
         if( (arg0 % 2)==0) {
             assertEquals(1, 1);
         } else {
@@ -35,23 +35,11 @@ public class MyStepdefs {
         //throw new cucumber.api.PendingException();
     }
 
-//    @When("one")
-//    public void oneWhen() {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new cucumber.api.PendingException();
-//    }
-
     @Then("one")
     public void oneThen() {
         // Write code here that turns the phrase above into concrete actions
         //throw new cucumber.api.PendingException();
     }
-
-//    @When("two")
-//    public void twoWhen() {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new cucumber.api.PendingException();
-//    }
 
     @Then("two")
     public void twoThen() {
@@ -59,16 +47,7 @@ public class MyStepdefs {
         //throw new cucumber.api.PendingException();
     }
 
-    @Given("<{int}>")
-    public void int1(Integer int1) {
-        // Write code here that turns the phrase above into concrete actions
-        //throw new cucumber.api.PendingException();
-        if( (int1 % 2)==0) {
-            assertEquals(1, 1);
-        } else {
-            assertEquals(1, 2);
-        }
-    }
+
 
 
 }
