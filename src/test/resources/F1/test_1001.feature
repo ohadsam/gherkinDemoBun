@@ -2,21 +2,21 @@
 Feature: Approve 
 
 	Scenario: ApproveScenario1
-		Given number
+		Given numberOdd
 		When one
 		Then one
 
 	Scenario: Approve2222
-		Given number
+		Given numberEven
 		When two
 		Then two
 
 	Scenario Outline: Online
-		Given <1> 
-		When  <2>  
+		Given <param1>
+		When  <param2>
 		Then all
 
 	Examples:
 		| param1 | param2 |
-		| a      | 1      |
-		| b      | 2      |
+		| 1      | 3      |
+		| 2      | 4      |
