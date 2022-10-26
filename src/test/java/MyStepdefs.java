@@ -41,7 +41,7 @@ public class MyStepdefs {
         //throw new cucumber.api.PendingException();
     }
 
-    @Then("two")
+    @Then("three")
     public void twoThen() {
         // Write code here that turns the phrase above into concrete actions
         //throw new cucumber.api.PendingException();
