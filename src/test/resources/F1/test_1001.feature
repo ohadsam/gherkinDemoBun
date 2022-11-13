@@ -14,7 +14,7 @@ Feature: Approve
 	Scenario Outline: Online
 		Given <param1>
 		When  <param2>
-		Then all
+		Then all2me
 
 	Examples:
 		| param1 | param2 |
