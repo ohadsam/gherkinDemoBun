@@ -6,18 +6,15 @@ Feature: Approve
 		When one
 		Then one
 
-
 	Scenario: Approve2222
 		Given numberEven
 		When three
 		Then three
 
-
 	Scenario: Approve22223
 		Given numberEven
 		When three
 		Then three
-		
 
 	Scenario Outline: Online
 		Given <param1>
