@@ -18,7 +18,7 @@ public class MyStepdefs {
     }
     
     @Then("all2me")
-    public void all() {
+    public void all2me() {
         // Write code here that turns the phrase above into concrete actions
         assertEquals(1, 1);
     }
