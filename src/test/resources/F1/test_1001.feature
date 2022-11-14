@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID29002REV0.22.0
+@BSPID29002REV0.22.1
 #Auto generated Octane revision tag
 Feature: Approve 
 
@@ -16,7 +16,7 @@ Feature: Approve
 		Then three
 
 @TSCID1836210
-	Scenario: 
+	Scenario: Approve22225
 		Given numberEven
 		When three
 		Then three
