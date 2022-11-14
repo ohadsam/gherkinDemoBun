@@ -14,7 +14,7 @@ Feature: Approve
 	Scenario: Approve22223
 		Given numberEven
 		When three
-		Then three
+		Then four
 
 	Scenario Outline: Online
 		Given <param1>
