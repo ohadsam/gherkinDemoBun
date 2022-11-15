@@ -15,6 +15,11 @@ Feature: Approve
 		When three
 		Then three
 
+@TSCID1836210
+	Scenario: Approve2222
+		Given numberEven
+		When three
+		Then three
 
 @TSCID1836211
 	Scenario Outline: Online
