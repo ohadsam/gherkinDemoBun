@@ -18,6 +18,11 @@ Feature: Approve
 		When three
 		Then three
 		
+	Scenario: Emily555
+		Given numberEven
+		When three
+		Then three
+
 
 	Scenario Outline: Online
 		Given <param1>
