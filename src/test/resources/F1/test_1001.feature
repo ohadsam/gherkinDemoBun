@@ -11,7 +11,7 @@ Feature: Approve
 		When three
 		Then three
 
-	Scenario: Approve22223
+	Scenario: Approve2222
 		Given numberEven
 		When three
 		Then three
