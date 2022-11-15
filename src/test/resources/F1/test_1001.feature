@@ -16,7 +16,7 @@ Feature: Approve
 		Then three
 
 @TSCID1836210
-	Scenario: Approve2226
+	Scenario: 
 		Given numberEven
 		When three
 		Then three
