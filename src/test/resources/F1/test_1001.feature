@@ -13,16 +13,10 @@ Feature: Approve
 		Then three
 
 
-	Scenario: Approve22223
+	Scenario: Approve22224
 		Given numberEven
 		When three
 		Then three
-		
-	Scenario: Emily555
-		Given numberEven
-		When three
-		Then three
-
 
 	Scenario Outline: Online
 		Given <param1>
