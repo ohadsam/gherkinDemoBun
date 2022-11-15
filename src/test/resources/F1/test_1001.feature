@@ -10,7 +10,7 @@ Feature: Approve
 		Then one
 
 @TSCID1836209
-	Scenario: Approve2227
+	Scenario: Approve2222
 		Given numberEven
 		When three
 		Then three
