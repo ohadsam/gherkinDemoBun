@@ -20,3 +20,4 @@ Feature: Approve
 		| param1 | param2 |			
 		| 2      | 4      |		
 		| 4      | 8      |
+		| 6      | 12     |
