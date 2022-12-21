@@ -17,8 +17,7 @@ Feature: Approve
 		Then all
 
 	Examples:
-		| param1 | param2 |
-		| 1      | 2      |		
+		| param1 | param2 |			
 		| 2      | 4      |		
 		| 3      | 6      |		
 		| 4      | 8      |
