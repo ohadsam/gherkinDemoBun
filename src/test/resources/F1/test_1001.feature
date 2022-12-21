@@ -18,6 +18,7 @@ Feature: Approve
 
 	Examples:
 		| param1 | param2 |
-		| 1      | 4      |
+		| 2      | 4      |
+		| 4      | 8      |
 	
 
