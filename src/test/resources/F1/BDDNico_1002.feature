@@ -10,5 +10,5 @@ Feature: x
 @TSCID1007
 	Scenario: test2
 		Given 4
-		When 6
+		When 5
 		Then 8
