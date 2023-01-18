@@ -11,6 +11,7 @@ Feature: nume frumos
 		| param1 | param2 | param3 |
 		| 13      | 15      | 35      |
 		| 20      | 22      | 47      |
+		| 26      | 17      | 44      |
 
 @TSCID1002
 	Scenario Outline: scenario 2
