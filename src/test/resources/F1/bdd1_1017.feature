@@ -1,7 +1,7 @@
 #Auto generated Octane revision tag
 @BSPID1017REV0.2.0
 Feature: feature vic
-@TSCID1157
+
 	Scenario Outline: scenario vic
 		Given <param1> 
 		When  <param2>  
