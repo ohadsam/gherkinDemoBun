@@ -2,7 +2,7 @@
 @BSPID1001REV0.2.0
 Feature: victor
 @TSCID1001
-	Scenario Outline: firsst scenario
+	Scenario Outline: firsst scenarioo
 		Given <param1> 
 		When  <param2>  
 		Then  <param3>  
