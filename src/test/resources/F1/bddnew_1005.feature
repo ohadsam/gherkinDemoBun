@@ -8,7 +8,7 @@ Feature: new
 		Then 66
 
 @TSCID1051
-	Scenario Outline: 
+	Scenario Outline: sss
 		Given <param1> 
 		When  <param2>  
 		Then  <param3>  
