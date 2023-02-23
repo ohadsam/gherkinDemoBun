@@ -15,5 +15,5 @@ Feature: new
 
 	Examples:
 		| param1 | param2 | param3 |
-		| 1      | 2      | 3      |
+		| 8      | 2      | 3      |
 		| 22      | 44      | 66      |
