@@ -13,4 +13,10 @@ Feature: davadvad
 		Given bfbfd
 		When vfdb
 		Then cvxc
+		
+@TSCID1905153
+	Scenario: tfdvfdsvbd
+		Given bfbfdvdfsvsdf
+		When vfdbvd d
+		Then cvxcdvfdsvgfd
 
