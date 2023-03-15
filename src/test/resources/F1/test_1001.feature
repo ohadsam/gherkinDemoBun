@@ -1,5 +1,6 @@
 #Auto generated Octane revision tag
-Feature: Approve 
+Feature: Approve
+
 
 	Scenario: ApproveScenario1
 		Given numberOdd
@@ -12,12 +13,14 @@ Feature: Approve
 		Then three
 
 	Scenario Outline: Online
-		Given <param1>
+		Given all
 		When  <param2>
-		Then all
+		Then <param1>
 
 	Examples:
 		| param1 | param2 |
-		| 1      | 3      |
-		| 2      | 4      |		
+		| 2      | 4      |
 		| 4      | 8      |
+		| 2      | 2      |
+		| 3      | 6      |
+

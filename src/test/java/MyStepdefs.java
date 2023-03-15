@@ -6,8 +6,21 @@ import static org.junit.Assert.assertEquals;
 public class MyStepdefs {
 
 
-    @Given("{int}")
+    @Given("all")
+    public void all() {
+//        boolean i = false;
+//        System.out.println("some: " + arg0);
+//        if( (arg0 % 2)==0) {
+            assertEquals(1, 1);
+//        } else {
+//            assertEquals(1, 2);
+//        }
+    }
+
+    @Then("{int}")
     public void some(int arg0) {
+        // Write code here that turns the phrase above into concrete actions
+        //assertEquals(1, 1);
         boolean i = false;
         System.out.println("some: " + arg0);
         if( (arg0 % 2)==0) {
@@ -15,12 +28,6 @@ public class MyStepdefs {
         } else {
             assertEquals(1, 2);
         }
-    }
-
-    @Then("all")
-    public void all() {
-        // Write code here that turns the phrase above into concrete actions
-        assertEquals(1, 1);
     }
 
     @Given("numberOdd")
