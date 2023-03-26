@@ -5,7 +5,7 @@
 Funktionalität: validatie
 
 @TSCID1938051
-	Szenario: test
+	Szenario: 
 		Angenommen 222
 		Wenn 444
 		Dann 888
@@ -13,43 +13,6 @@ Funktionalität: validatie
         Wenn 444
         Dann 222
 	
-@TSCID1938051
-	Szenario: test
-		Angenommen 222
-		Wenn 444
-		Dann 888
-        Und 666
-        Wenn 444
-        Dann 222
-
-@TSCID1938051
-	Szenario: test
-		Angenommen 222
-		Wenn 444
-		Dann 888
-        Und 666
-        Wenn 444
-        Dann 222
-
-
-@TSCID1938051
-	Szenario: test
-		Angenommen 222
-		Wenn 444
-		Dann 888
-        Und 666
-        Wenn 444
-        Dann 222
-
-
-@TSCID1938051
-	Szenario: test
-		Angenommen 222
-		Wenn 444
-		Dann 888
-        Und 666
-        Wenn 444
-        Dann 222
 
 
 
