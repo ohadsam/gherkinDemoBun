@@ -53,6 +53,20 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         //throw new cucumber.api.PendingException();
     }
+    @Given("^my name (.*)$")
+    public void myName(String str) {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new cucumber.api.PendingException();
+    }
+    @When("I see {int}")
+    public void iSee(Integer int1) {
+        // Write code here that turns the phrase above into concrete actions
+        //
+    }
+    @Then("{int} will pop")
+    public void willPop(Integer int1){
+
+    }
 
 
 
