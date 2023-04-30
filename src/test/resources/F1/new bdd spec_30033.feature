@@ -1,7 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID30033REV0.3.0
 Feature: 
-@TSCID1938052
 	Scenario Outline: My First Scenario
 		Given my name <param1> 
 		When  I see <param2>  
