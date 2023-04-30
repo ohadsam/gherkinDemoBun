@@ -9,7 +9,11 @@ Feature: Approve
 		Given numberOdd
 		When one
 		Then one
-
+@TSCID1981058
+	Scenario: ApproveScenario1
+		Given numberOdd
+		When one
+		Then one
 @TSCID1981059
 	Scenario: Approve3333
 		Given numberEven
