@@ -5,12 +5,7 @@ Feature: Approve
 
 
 @TSCID1981058
-	Scenario: ApproveScenario1
-		Given numberOdd
-		When one
-		Then one
-@TSCID1981058
-	Scenario: ApproveScenario1
+	Scenario: 
 		Given numberOdd
 		When one
 		Then one
