@@ -1,6 +1,6 @@
 #Auto generated Octane revision tag
 Feature: Approve
-	Scenario: 
+	Scenario: numberStatus
 		Given numberOdd
 		When one
 		Then one
