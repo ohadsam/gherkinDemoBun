@@ -1,17 +1,17 @@
 #Auto generated Octane revision tag
-@BSPID27007REV0.3.0
+@BSPID28005REV0.2.0
 Feature: Approve
-@TSCID1980040
+@TSCID1980046
 	Scenario: numberStatus
 		Given numberOdd
 		When one
 		Then one
-@TSCID1980041
+@TSCID1980047
 	Scenario: Approve2222
 		Given numberEven
 		When three
 		Then three
-@TSCID1980042
+@TSCID1980048
 	Scenario Outline: Online
 		Given all
 		When  <param2>
