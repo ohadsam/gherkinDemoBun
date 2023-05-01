@@ -122,18 +122,22 @@ public class MyStepdefs {
         throw new cucumber.api.PendingException();
     }
 
-    @Entón("ty")
-    public void ty2() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new cucumber.api.PendingException();
-    }
+//    @Entón("ty")
+//    public void ty2() {
+//        // Write code here that turns the phrase above into concrete actions
+//        throw new cucumber.api.PendingException();
+//    }
 
     @Dado("a")
     public void a() {
         // Write code here that turns the phrase above into concrete actions
         throw new cucumber.api.PendingException();
     }
-
+    @Entón("test")
+    public void test() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new cucumber.api.PendingException();
+    }
 
 
     @Dado("b")
