@@ -6,7 +6,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.java.gl.Cando;
 import io.cucumber.java.gl.Dado;
-import io.cucumber.java.gl.Entón;
+//import io.cucumber.java.gl.Entón;
 
 import static org.junit.Assert.assertEquals;
 public class MyStepdefs {
@@ -133,11 +133,11 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         throw new cucumber.api.PendingException();
     }
-    @Entón("test")
-    public void test() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new cucumber.api.PendingException();
-    }
+//    @Entón("test")
+//    public void test() {
+//        // Write code here that turns the phrase above into concrete actions
+//        throw new cucumber.api.PendingException();
+//    }
 
 
     @Dado("b")
