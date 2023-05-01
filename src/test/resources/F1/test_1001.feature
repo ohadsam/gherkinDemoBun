@@ -2,17 +2,17 @@
 @BSPID28005REV0.2.0
 Feature: Approve
 @TSCID1980046
-	Scenario: numberStatus
+	Scenario: numberStatus new
 		Given numberOdd
 		When one
 		Then one
 @TSCID1980047
-	Scenario: Approve2222
+	Scenario: Approve2222 new
 		Given numberEven
 		When three
 		Then three
 @TSCID1980048
-	Scenario Outline: Online
+	Scenario Outline: Online new
 		Given all
 		When  <param2>
 		Then <param1>
