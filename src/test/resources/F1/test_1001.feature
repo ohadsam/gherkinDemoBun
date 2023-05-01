@@ -1,21 +1,13 @@
 #Auto generated Octane revision tag
-@BSPID28001REV0.0.2
-#Auto generated Octane revision tag
 Feature: Approve
-
-
-@TSCID1981058
 	Scenario: 
 		Given numberOdd
 		When one
 		Then one
-@TSCID1981059
 	Scenario: Approve3333
 		Given numberEven
 		When three
 		Then three
-
-@TSCID1981060
 	Scenario Outline: Online
 		Given all
 		When  <param2>
