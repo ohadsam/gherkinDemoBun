@@ -1,7 +1,7 @@
 #Auto generated Octane revision tag
 @TID1979194REV0.3.0
 Feature: My First feature
-	Scenario Outline: My First Scenario
+	Scenario Outline: My First Scenario new
 		Given my name <param1> 
 		When  I see <param2>  
 		Then  <param3> will pop
