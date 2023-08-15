@@ -29,6 +29,11 @@ public class MyStepdefs {
         //assertEquals(1, 1);
         boolean i = false;
         System.out.println("some: " + arg0);
+//        try {
+//            Thread.sleep(10000);
+//        } catch (InterruptedException interruptedException){
+//            // do something
+//        }
         if( (arg0 % 2)==0) {
             assertEquals(1, 1);
         } else {
@@ -146,6 +151,42 @@ public class MyStepdefs {
         throw new cucumber.api.PendingException();
     }
 
+
+    @Given("dsf")
+    public void dsf() {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new cucumber.api.PendingException();
+    }
+
+    @When("df1")
+    public void df2() {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new cucumber.api.PendingException();
+    }
+
+    @Then("df2")
+    public void df1() {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new cucumber.api.PendingException();
+    }
+
+    @Given("a")
+    public void a() {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new cucumber.api.PendingException();
+    }
+
+    @Then("sdf")
+    public void sdf() {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new cucumber.api.PendingException();
+    }
+
+    @Given("b")
+    public void b() {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new cucumber.api.PendingException();
+    }
 
 
 
