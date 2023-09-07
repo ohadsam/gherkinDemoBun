@@ -97,12 +97,6 @@ public class MyStepdefs {
         throw new cucumber.api.PendingException();
     }
 
-    @Dann("sdf")
-    public void sdf() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new cucumber.api.PendingException();
-    }
-
     @Wenn("sdg")
     public void sdg() {
         // Write code here that turns the phrase above into concrete actions
@@ -133,23 +127,11 @@ public class MyStepdefs {
 //        throw new cucumber.api.PendingException();
 //    }
 
-    @Dado("a")
-    public void a() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new cucumber.api.PendingException();
-    }
 //    @Entón("test")
 //    public void test() {
 //        // Write code here that turns the phrase above into concrete actions
 //        throw new cucumber.api.PendingException();
 //    }
-
-
-    @Dado("b")
-    public void b() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new cucumber.api.PendingException();
-    }
 
 
     @Given("dsf")
