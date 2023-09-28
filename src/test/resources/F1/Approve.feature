@@ -1,7 +1,15 @@
-#Auto generated Octane revision tag
-@BSPID13001REV0.3.0
-Feature: 
-@TSCID18025
+Feature: Approve
+
+	Scenario: numberStatus
+		Given numberOdd
+		When one
+		Then one
+
+	Scenario: Approve2222
+		Given numberEven
+		When three
+		Then three
+
 	Scenario Outline: Online
 		Given all
 		When  <param2>
