@@ -4,6 +4,11 @@ Feature: Approve
 		Given numberOdd
 		When three
 		Then one
+  
+  	Scenario: numberStatus2
+		Given numberOdd
+		When three
+		Then one
 
 	Scenario: Approve2222
 		Given numberEven
