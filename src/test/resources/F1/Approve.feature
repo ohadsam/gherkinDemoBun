@@ -2,7 +2,7 @@ Feature: Approve
 
 	Scenario: numberStatus
 		Given numberOdd
-		When three
+		When one
 		Then one
   
   	Scenario: numberStatus2
