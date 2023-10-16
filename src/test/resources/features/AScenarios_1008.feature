@@ -5,7 +5,6 @@ Feature:Approve
 		Then dfg
 
 	Scenario: Approve2222
- 		But Emily
 		Given sdf
 		When ghf
 		Then gdf
