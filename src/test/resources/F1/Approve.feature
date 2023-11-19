@@ -10,8 +10,7 @@ Feature: Approve
 		When three
 		Then one
 
-	Scenario: Approve2222
-  		But Emily
+	Scenario: Approve2222  		
 		Given numberEven
 		When three
 		Then three
