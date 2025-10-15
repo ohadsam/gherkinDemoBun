@@ -9,6 +9,6 @@ Feature: Bdd123
 
 @TSCID3142
 	Scenario: bdd3
-		Given 22
-		When 44
-		Then 66
+		Given 222
+		When 443
+		Then 664
