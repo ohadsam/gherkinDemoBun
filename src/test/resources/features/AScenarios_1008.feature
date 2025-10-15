@@ -11,7 +11,7 @@ Feature:Approve
 	Scenario: Approve2222
 		Given sdf
 		When ghf
-		Then gdf
+		Then gdf1111
 
 @TSCID1015
 	Scenario Outline: Online
